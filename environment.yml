@@ -1,8 +1,8 @@
-name: example-environment
+name: my-binderhub-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.13.3
   - numpy
   - psutil
   - toolz
