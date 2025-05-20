@@ -1,9 +1,14 @@
-name: my-binder-env
+name: example-environment
 channels:
   - conda-forge
 dependencies:
   - python=3.11
   - numpy
-  - pandas
+  - psutil
+  - toolz
   - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
   - dask
