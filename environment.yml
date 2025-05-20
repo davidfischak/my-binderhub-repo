@@ -2,7 +2,7 @@ name: my-binderhub-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.13.3
+  - python=3.12.10
   - numpy
   - psutil
   - toolz
